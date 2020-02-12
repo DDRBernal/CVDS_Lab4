@@ -18,7 +18,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 
-public class GamesModel {
+public class GameModel {
     private int incorrectCount;
     private int correctCount;
     private LocalDateTime dateTime;
@@ -34,7 +34,7 @@ public class GamesModel {
     
     
    
-    public GamesModel(HangmanDictionary dictionary){
+    public GameModel(HangmanDictionary dictionary){
         //this.dictionary = new EnglishDictionaryDataSource();
         this.dictionary=dictionary;
         randomWord = selectRandomWord();

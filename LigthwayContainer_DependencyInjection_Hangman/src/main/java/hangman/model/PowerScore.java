@@ -1,18 +1,14 @@
-package hangman;
+package hangman.model;
 
-public class PowerScore implements GameScore {
+public class PowerScore implements model.GamesScore {
     private int puntos;
     private int penalizacion;
-    
-    public PowerModel(){
-
-    }
 
     /**
      * 
      *@pre
      *@pos
-     *@param int correntCount, int incorrectCount
+     *@param correctCount , int incorrectCount
      *@throws
      */
     public int calculateScore(int correctCount, int incorrectCount){
