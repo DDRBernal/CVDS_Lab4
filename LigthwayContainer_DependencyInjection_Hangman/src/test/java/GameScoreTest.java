@@ -5,38 +5,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 import org.junit.Test;
 
-/**
- * CLASES DE EQUIVALENCIA
- * ORIGINALSCORE
- *
- |  Número        |               Clase de equivalencia                     | correcto - incorrecto. |
- |----------------|---------------------------------------------------------|---------------------------------|
- |1		 | [-inf,0)                                                         |(Incorrecto)  HangmanException   |
- |2		 | [0,100]	                                                        |(Correcto)                       |
- |3		 | (10,+inf)        	                                            |(Incorrecto)                     |
- *
- * PARA BONUS SCORE
- *
- |  Número        |               Clase de equivalencia                     | correcto - incorrecto. |
- |----------------|---------------------------------------------------------|---------------------------------|
- |1		 | [-inf,0)                                                         |(Incorrecto) HangmanException    |
- |2		 | [0,100]	                                                        |(Correcto)                       |
- |3		 | (10,+inf)        	                                            |(Incorrecto)                     |
- *
- * PARA POWER SCORE
- *
- |  Número        |Clase de equivalencia (en lenguaje natural o matemático).|Resultado correcto / incorrecto. 			   |
- |----------------|---------------------------------------------------------|-------------------------------------------------------|
- |1		 | Incorrect<0 o Correct<0                                 |(Incorrecto) HangManException      			   |
- |2		 | SUM(5^K)<8Incorrect   con K de 1 a Correct   	   |(Correcto) Valor igual a 0     			   |
- |3		 | 0<= SUM(5^K)-8Incorrect<=500   con K de 1 a Correct     |(Correcto) Valor entre 500 y 0    			   |
- |4		 | 500< SUM(5^K)-8Incorrect   con K de 1 a Correct         |(Correcto) Valor igual a 500   			   |
- *
- *
- */
-
-
-
 public class GameScoreTest {
 
     @Test
