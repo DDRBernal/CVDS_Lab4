@@ -12,6 +12,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
+					<includes>
+					  <include>**/*.java</include>
+					</includes>
                     <showDeprecation>true</showDeprecation>
                 </configuration>
             </plugin>
@@ -37,6 +40,6 @@
 		  <scope>test</scope>
 		</dependency>
     </dependencies>
-	
 
+  
 </project>
